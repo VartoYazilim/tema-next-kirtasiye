@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Atelier | Your Creative Selection</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-container": "#663a47",
+                    "surface-container-low": "#f2f4f5",
+                    "inverse-surface": "#0c0f10",
+                    "inverse-primary": "#b6d4fb",
+                    "on-surface-variant": "#5a6062",
+                    "outline": "#767c7e",
+                    "secondary-container": "#cde5ff",
+                    "error-dim": "#70030f",
+                    "error-container": "#f56965",
+                    "inverse-on-surface": "#9b9d9e",
+                    "surface-dim": "#d5dbdd",
+                    "on-primary-fixed-variant": "#355373",
+                    "surface-container-high": "#e5e9eb",
+                    "secondary": "#31638a",
+                    "on-primary": "#f7f9ff",
+                    "primary": "#436182",
+                    "surface": "#f8f9fa",
+                    "on-secondary-fixed": "#004369",
+                    "on-secondary-fixed-variant": "#2c5f87",
+                    "on-tertiary-fixed-variant": "#704350",
+                    "on-primary-fixed": "#153655",
+                    "surface-container-highest": "#dee3e5",
+                    "tertiary": "#81525f",
+                    "surface-tint": "#436182",
+                    "outline-variant": "#aeb3b5",
+                    "primary-dim": "#375576",
+                    "secondary-fixed": "#cde5ff",
+                    "on-surface": "#2e3335",
+                    "on-background": "#2e3335",
+                    "on-error-container": "#65000b",
+                    "secondary-fixed-dim": "#b1d9ff",
+                    "on-secondary": "#f6f9ff",
+                    "on-tertiary-fixed": "#502834",
+                    "tertiary-dim": "#734653",
+                    "primary-fixed-dim": "#a8c6ec",
+                    "background": "#f8f9fa",
+                    "primary-fixed": "#b6d4fb",
+                    "surface-variant": "#dee3e5",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#b6d4fb",
+                    "tertiary-container": "#fec1d0",
+                    "error": "#ac3434",
+                    "on-secondary-container": "#20567c",
+                    "on-tertiary": "#fff7f7",
+                    "tertiary-fixed-dim": "#efb4c3",
+                    "tertiary-fixed": "#fec1d0",
+                    "surface-container": "#ebeef0",
+                    "on-error": "#fff7f6",
+                    "secondary-dim": "#22577e",
+                    "on-primary-container": "#2b4969",
+                    "surface-bright": "#f8f9fa"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tight text-blue-900 dark:text-blue-100 font-headline">The Atelier</div>
+<nav class="hidden md:flex gap-8 items-center font-body text-sm">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-200 ease-in-out" href="#">Shop All</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-200 ease-in-out" href="#">Notebooks</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-200 ease-in-out" href="#">Writing</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-200 ease-in-out" href="#">Sets</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="transition-all active:scale-95 text-blue-800 dark:text-blue-300">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="transition-all active:scale-95 text-blue-800 dark:text-blue-300">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-24 px-8 max-w-7xl mx-auto">
+<div class="flex flex-col lg:flex-row gap-16">
+<!-- Shopping Cart List -->
+<section class="flex-grow">
+<h1 class="text-4xl font-extrabold tracking-tight font-headline text-on-surface mb-12">Your Atelier Selection</h1>
+<div class="space-y-12">
+<!-- Cart Item 1 -->
+<div class="flex gap-8 items-start group">
+<div class="w-40 h-52 bg-surface-variant rounded-md overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-500" data-alt="Close-up of a premium navy blue leather bound notebook on a clean white desk with soft shadows and minimalist aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhhWb5VIbVjIVQ_lS3LzzOfgWZQQRljPBdCJkSZxPj3MF9DON5160FHk7wOO5j4ZbIJnEhD9Yjrczn1KewglVll6wNledDLPD74Ouzcf36rt6aXcgUlo3ryF3-XZra20jT7770J2EiY-gqQY6PSIj5xrvKJENOSxSvQK2geGua4x-3m0ZlNUe0OQp-Ku0MSInb1GNRBxX73hAhWa4g6uCew8QsWHOlVELfYZWd9sI3EG_gp54u6XQ0iiRk7D4_n6qSvI_GFlqCHzmP"/>
+</div>
+<div class="flex-grow flex flex-col justify-between py-2">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-xl font-bold font-headline text-on-surface">Midnight Archival Notebook</h3>
+<p class="text-lg font-semibold text-primary">$48.00</p>
+</div>
+<p class="text-on-surface-variant mt-2 max-w-md">240 pages of 120gsm Swedish Munken paper, Smyth-sewn binding in deep indigo leather.</p>
+<div class="mt-4 flex gap-3">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-semibold tracking-wide">Heavyweight</span>
+<span class="bg-surface-container-high text-on-surface-variant px-3 py-1 rounded-full text-xs font-semibold tracking-wide">A5 Slim</span>
+</div>
+</div>
+<div class="mt-8 flex items-center justify-between">
+<div class="flex items-center bg-surface-container-low rounded-xl px-4 py-2 border border-outline-variant/20">
+<button class="p-1 hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">remove</span></button>
+<span class="mx-6 font-medium text-sm">01</span>
+<button class="p-1 hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">add</span></button>
+</div>
+<button class="text-on-surface-variant hover:text-error transition-colors flex items-center gap-2 text-sm font-medium">
+<span class="material-symbols-outlined text-base">delete</span>
+                                    Remove
+                                </button>
+</div>
+</div>
+</div>
+<!-- Cart Item 2 -->
+<div class="flex gap-8 items-start group">
+<div class="w-40 h-52 bg-surface-variant rounded-md overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-500" data-alt="Professional brass fountain pen laying on a stack of high-quality cream colored paper with soft morning sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDS5VUeP-TmfEt-AtESXWalGDZaGkNxVhkCL2MW_lSKsCd2AUNTHBgjdBsKWxvxSpXch8N0mqvRJKqZWCn7AShnxhQC-AX8eVyh90Qn2oYHUkupAd_2wJntfTspKWV1mNsZvham1pXuDnCqweJLivgVcTcOsT4NHFoTIk_HpT3lPc4ESoTxJ4MHoqOG2X8oIN1F61-hpwHps7XyuINh0-mD1U6kS_uL5Ke9vkZIrSjmFD-gYUElnSTc3e6Bo3uw8usfjTt3P0wobpij"/>
+</div>
+<div class="flex-grow flex flex-col justify-between py-2">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-xl font-bold font-headline text-on-surface">The Precisionist Brass Pen</h3>
+<p class="text-lg font-semibold text-primary">$120.00</p>
+</div>
+<p class="text-on-surface-variant mt-2 max-w-md">Solid brass construction with a balanced center of gravity and a 0.5mm needle point.</p>
+<div class="mt-4 flex gap-3">
+<span class="bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full text-xs font-semibold tracking-wide">Artisan Edition</span>
+<span class="bg-surface-container-high text-on-surface-variant px-3 py-1 rounded-full text-xs font-semibold tracking-wide">Polished Brass</span>
+</div>
+</div>
+<div class="mt-8 flex items-center justify-between">
+<div class="flex items-center bg-surface-container-low rounded-xl px-4 py-2 border border-outline-variant/20">
+<button class="p-1 hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">remove</span></button>
+<span class="mx-6 font-medium text-sm">01</span>
+<button class="p-1 hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">add</span></button>
+</div>
+<button class="text-on-surface-variant hover:text-error transition-colors flex items-center gap-2 text-sm font-medium">
+<span class="material-symbols-outlined text-base">delete</span>
+                                    Remove
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty state nudge / Mood Board Style -->
+<div class="mt-24 bg-surface-container-low p-12 rounded-xl relative overflow-hidden">
+<div class="relative z-10 max-w-md">
+<h4 class="text-2xl font-bold font-headline text-on-primary-fixed mb-4">Complete your setup</h4>
+<p class="text-on-surface-variant mb-6">Our artisanal inks are designed to flow perfectly on the archival paper in your cart.</p>
+<button class="text-primary font-bold flex items-center gap-2 group">
+                            Explore Ink Collections 
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="absolute right-0 top-0 h-full w-1/2 opacity-20 pointer-events-none">
+<img class="w-full h-full object-cover" data-alt="Abstract macro shot of blue ink swirling in water with soft cinematic lighting and elegant curves" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHpUpilUfXccClFTFEsUlLWptyXrLykJQLcEFdteo0MsURZtihSeBY35o65mr4Pjv7GgI8PzraZCPufupxzar4SxtG-p7_1SMtZOaw8f6MaUH2Zhzh5__P0T7OisOfcLr8cH7bFMInaZtw9u7Xo6dbf3vCdcvtDYATcdDX0pCplmgF0SRldC4PZwmR6445-8bVVlPvMBsKn7dgvlA97zfsyT5lOSQnd0tHPHadkIfcjIzdtW1PK5AXLvGPuXNZSnWiFpQTNb2wMJil"/>
+</div>
+</div>
+</section>
+<!-- Order Summary Sidebar -->
+<aside class="w-full lg:w-96">
+<div class="sticky top-32 space-y-6">
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 shadow-sm">
+<h2 class="text-xl font-bold font-headline text-on-surface mb-8">Summary</h2>
+<div class="space-y-4">
+<div class="flex justify-between text-sm">
+<span class="text-on-surface-variant">Subtotal</span>
+<span class="text-on-surface font-semibold">$168.00</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-on-surface-variant">Shipping (Standard)</span>
+<span class="text-on-surface font-semibold">$12.00</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-on-surface-variant">Estimated Tax</span>
+<span class="text-on-surface font-semibold">$14.28</span>
+</div>
+<div class="pt-6 mt-6 border-t border-surface-container-high">
+<div class="flex justify-between items-baseline">
+<span class="text-lg font-bold font-headline text-on-surface">Total</span>
+<span class="text-2xl font-extrabold font-headline text-primary">$194.28</span>
+</div>
+</div>
+</div>
+<!-- Promo Code -->
+<div class="mt-10">
+<label class="text-xs font-bold tracking-widest uppercase text-on-surface-variant mb-3 block">Promo Code</label>
+<div class="flex gap-2">
+<input class="flex-grow bg-surface-container-low border-none rounded-xl px-4 py-3 text-sm focus:ring-2 ring-primary/20 transition-all placeholder:text-outline-variant" placeholder="ATELIER15" type="text"/>
+<button class="bg-surface-container-highest text-primary px-4 py-3 rounded-xl text-xs font-bold hover:bg-primary hover:text-on-primary transition-all">Apply</button>
+</div>
+</div>
+<button class="w-full mt-8 py-5 bg-gradient-to-r from-primary to-primary-dim text-on-primary rounded-xl font-bold text-lg tracking-tight shadow-md hover:shadow-xl hover:opacity-95 transition-all active:scale-[0.98]">
+                            Proceed to Checkout
+                        </button>
+<div class="mt-8 flex items-center justify-center gap-6 opacity-40">
+<span class="material-symbols-outlined text-2xl">shield</span>
+<span class="material-symbols-outlined text-2xl">credit_card</span>
+<span class="material-symbols-outlined text-2xl">lock</span>
+</div>
+</div>
+<!-- Trust Messaging -->
+<div class="bg-surface-container p-6 rounded-xl">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">package_2</span>
+<div>
+<h4 class="text-sm font-bold text-on-surface">Carbon Neutral Shipping</h4>
+<p class="text-xs text-on-surface-variant mt-1 leading-relaxed">Each delivery is offset through reforestation projects in the Northern Hemisphere.</p>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 mt-auto bg-slate-100 dark:bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div>
+<div class="text-xl font-bold text-blue-900 dark:text-blue-100 mb-4 font-headline">The Atelier</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed font-body">Crafting the tools of tomorrow for the creators of today.</p>
+</div>
+<div class="flex flex-col gap-3">
+<h5 class="text-blue-900 dark:text-blue-200 font-bold mb-2">Customer Care</h5>
+<a class="text-slate-500 dark:text-slate-400 text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href="#">Shipping</a>
+<a class="text-slate-500 dark:text-slate-400 text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href="#">Returns</a>
+<a class="text-slate-500 dark:text-slate-400 text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex flex-col gap-3">
+<h5 class="text-blue-900 dark:text-blue-200 font-bold mb-2">Company</h5>
+<a class="text-slate-500 dark:text-slate-400 text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href="#">Sustainability</a>
+<a class="text-slate-500 dark:text-slate-400 text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors" href="#">Wholesale</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="text-blue-900 dark:text-blue-200 font-bold mb-2">The Digital Atelier</h5>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors">public</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors">alternate_email</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors">camera</span>
+</div>
+<p class="text-slate-400 text-xs mt-4">© 2024 The Digital Atelier. Crafted for creators.</p>
+</div>
+</div>
+</footer>
+</body></html>

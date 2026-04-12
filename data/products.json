@@ -1,0 +1,211 @@
+[
+  {
+    "id": "p-001",
+    "slug": "miras-deri-ajanda",
+    "name": "Miras Deri Ajanda",
+    "category": "Defterler",
+    "type": "Ajanda",
+    "badge": "Sınırlı Seri",
+    "brand": "Atelier Select",
+    "price": 2290,
+    "oldPrice": 2490,
+    "rating": 4.9,
+    "reviewCount": 124,
+    "colorTone": "Toprak",
+    "shortDescription": "İtalyan deri kapak, 120 gsm kâğıt ve düz açılan cilt yapısı.",
+    "description": "Günlük planlama, eskiz ve not alma için tasarlanan bu ajanda; doğal deri dokusu, dengeli ağırlığı ve tok yazım hissiyle masanızın en uzun ömürlü eşlikçilerinden biri olur.",
+    "features": [
+      "120 gsm ivory kâğıt",
+      "Düz açılan dikişli cilt",
+      "Doğal deri kapak",
+      "Kurdele ayraç"
+    ],
+    "specs": [
+      { "label": "Ölçü", "value": "A5" },
+      { "label": "Sayfa", "value": "240" },
+      { "label": "Kapak", "value": "İtalyan deri" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAqvpKFttJXAblHZa6SbdHfV2VhaKTvGeMD1V-fz9m5eETbQ5tNVNFzT8LMgNjV9OcWJf-OqQGrqnxzatPawwM1JVrCvbxZyy5tcoDx1batbifC-sfwK5Ep78DIpYD1ioRAs3BEmuSAT89Afg6_ZAl_kyw1CxGUdx9j1Txc9rNhTUp9V7i98m7DvNOEukSBmAZYqr6v1117b3ObE5McibTftJpVuZgFLsOa9ta30kP7ua2tavlDp8vAz5K_NBAxAs8Y2ZD_4SbQ9exy",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuChoPIH3-4g99uXfSEWAEBgMp6oJjb7gR1dPAcCzUT3AZr1dyUWm4woFP8BR7rj3WcO32DwZXvG4BNWlc7Qc53lWuYpkw59VKhaBr6bT4jRK0LWOwvRQzC5E2i8EzPPz3kEk8-Mp92gyC5D9TgojrJ5f1Ol2llU-bUfglVcbLwabFz1ZG7TV1BXN5otTPZp-bDBTMnaKw0BoLoT5Bq0FCNZW6FzqPAsEXUNEyx3MiqrWcmDSNxTxNckICFj4luvKPZweClgk3iO_rHX",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAaptWgfQ5k-2nq-lPiajxGDSKyq3c7pfo97nD8VATew_inrHJivoKbJqPmpgbNBK8ppmW9n86NkJY9JWw2WAmNwx3BMHiAcds47mTeLj7jl9sZKMkFwebsmf6IqYoUi4pgHsa9xxeAf3cBvsd5N91ZPnNzSMr9g2Y9P2QWqcAF39dSDFu0vcRKoPjew21uuPkC3G2D6tiLQ3HSRKZlS5V7qxoQ0WXfrgx-rtoTho1Kup8fhqUbmwtgHYcT_UYs3fci6igU7cvjYK03"
+    ],
+    "relatedSlugs": ["pirinc-dolma-kalem", "gece-murekkebi", "yun-masa-altligi"],
+    "reviews": [
+      { "author": "Elif Kara", "role": "Mimar", "rating": 5, "text": "Deri kokusu ve kâğıdın tok hissi gerçekten etkileyici. Her gün kullanıyorum." },
+      { "author": "Mert Erdem", "role": "Grafik tasarımcı", "rating": 5, "text": "Dolma kalemle son derece dengeli yazıyor. Cilt kalitesi üst düzey." },
+      { "author": "Sena Akın", "role": "Yazar", "rating": 4, "text": "Fiyatı yüksek olsa da yıllarca kullanılacak bir parça olduğunu hissettiriyor." }
+    ]
+  },
+  {
+    "id": "p-002",
+    "slug": "pirinc-dolma-kalem",
+    "name": "Pirinç Dolma Kalem",
+    "category": "Yazım",
+    "type": "Dolma Kalem",
+    "brand": "Atelier Select",
+    "price": 1790,
+    "rating": 4.8,
+    "reviewCount": 89,
+    "colorTone": "Gece",
+    "shortDescription": "Dengeli ağırlık merkezi ve ince uç akışıyla hassas yazım deneyimi.",
+    "description": "Tam pirinç gövdesiyle güven veren, her çizgide kontrollü akış sunan zarif bir yazı aracı. Uzun not seanslarında dahi elde dengeli kalır.",
+    "features": [
+      "Pirinç gövde",
+      "İnce uç akışı",
+      "Kartuş dönüştürücü uyumu",
+      "Mat yüzey dokusu"
+    ],
+    "specs": [
+      { "label": "Uç", "value": "EF" },
+      { "label": "Malzeme", "value": "Pirinç" },
+      { "label": "Uzunluk", "value": "14 cm" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBKsnCkfi3jfOqWL8fcbLJr2M3y_BCEis6sgoimpf9KhrF4_6z6MLkbwTFREcKS1nSmembiPo9TwdhpkqT1NutjMNbCCT2D_jhg3ADhIcy4iQz1Jl3TUnNrJ6IrY7LC9P5qwWnRjMqFxfWoGYt7otHhYA4ijy7R7G2-9NUWSlz9nDWpiuJCu1iJ81lcdWjstrL3pqyTVsrw2mpcgEt0h9DOdZP86_winbx9I_HBTqeMhF5ZOBVND4HXbiaWim74qdoydnfjNpdACMH-",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuACmSqt8Rmqaa8_l3ihbo3p7Ppm-06uR9-GrWcxoo4BpTp4hsKlxPgaLh4oFx1hh_r85WwS9nMxYIuDhfUZgmshStWJePZmOmRDQlGMkYtCInV5r3ULBDIZVe1EYlKga9gCpVHbvJ3H_gFMs3vqoHeyIRQE3gVvWGF4KLWSiZT6_aCCYuJsmBYdTF3OSTIenm3or7GWioR3b3u9g2XJz_dxqhnSfudqJ8vnGFiAWdoZXrKSuNG7RSUWC7QhgEjOy7WOKbAVNP4FLAXs",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCX1OfhhYU0Wy07nXfrqO-K7Zg_ajmj2JcYSXWzD3LOtLN_T6fubi-uFbfVQYMHXlzZFVPtsCrs7ciHIzs6fqqnBk8bWc_Ho-1BWQExeXsCDUV9mnW65L9ro1nfOBL9Ylb31bWF7wZup1RexugIFUHARQxjsuwiosWlEnmNOEHN4zXgb8xg-KBPx3h4FCgwtQlQtHANu1mmaKVqZoJIe2br180EFonIbKyjQa9vf7KbE-Bwg-e4FMOXQ_uvi3uhzF1u5BAEZJiqXCjZ"
+    ],
+    "relatedSlugs": ["miras-deri-ajanda", "gece-murekkebi", "mimari-duzenleyici"],
+    "reviews": [
+      { "author": "Can Demir", "role": "İllüstratör", "rating": 5, "text": "Ağırlığı tam kararında. Uzun yazılarda el yormuyor." },
+      { "author": "Derya T.", "role": "Editör", "rating": 4, "text": "Uç akışı tutarlı ve gövdesi masada çok şık duruyor." }
+    ]
+  },
+  {
+    "id": "p-003",
+    "slug": "mimari-duzenleyici",
+    "name": "Mimari Düzenleyici",
+    "category": "Masa Düzeni",
+    "type": "Düzenleyici",
+    "brand": "Maison Forme",
+    "price": 1490,
+    "rating": 4.7,
+    "reviewCount": 42,
+    "colorTone": "Metalik",
+    "shortDescription": "Modüler pirinç masa düzenleyici ile araçlarınıza net bir yer açın.",
+    "description": "Geometrik çizgileri ve yalın formu sayesinde çalışma alanını sakinleştiren, aynı zamanda her kalemi elinizin altında tutan düzenli bir masa objesi.",
+    "features": [
+      "Fırçalanmış pirinç yüzey",
+      "Modüler bölmeler",
+      "Kaymaz taban",
+      "Minimal profil"
+    ],
+    "specs": [
+      { "label": "Malzeme", "value": "Fırçalanmış pirinç" },
+      { "label": "Bölme", "value": "3" },
+      { "label": "Ağırlık", "value": "640 g" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDAUAPvhohjMDaSzJ6J2J3iv8yLie1hNjd2boKhVTaFWWh_iGWP2fMc52WCuMLOnZupid9kbVNAogqXmmmeJv7Qiyr3dDEQaTFUtFPoqoXbPbV-pNiM74q-7DIWFF6bMnlsEP4Cy9oidijyPwvHnf6s7IkLLtAlqRamUzj2nqOTdUOPFyNEbJ8W6C7EQPpgJvS-AwZXR69QSdERt8ta-bpQfWImgthpiMRQUtK1dXrFINoiiDB97gcJjsf0OAQ3e60txajrrcKpIltG",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBSgLo18U4zdXNO9CVCAjFb1JUwhhD2ALezpMdiaec8mW3CGDoZwfPwWrg0eHsiettFLGtmped26Icq4yoswB5HGCT3RE1708kKAaY9zl7RjmAHRT-29RvM7juYpxQLm466BFvtn1iljSS5bdo7CogXJGWuXGKg-Yo7KzPm6d3b0n4cVwjE61ookwbUN1n78GX9-OBT9ybp_Lij5JY4Sjd4Bl5NKKUh0zaK6QpBwvtEJQzSpILoyfhGpuHPuDkQCBNwTpbuA5a9FYIi",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDgn6DA1XZ72n4Fk5pG-g-GZaIJw7cthp4ubIN6ruyDJ_fOtz7LpWsLPbbnOU_uGXzl9HN8HHzRUWsJVdAO3IxJRzimurjZrY6a99I-qmohTkr9q3onkmrrWnAxZ0UQgWVEAGwnJ1FqSh64VqgxwOV7GfFhAu6pxgvbHuHdC-8S9UwNiTEoxVLhKtXCJJ3WJNt3Jhn9AEFCzlyEBEnZk99z2oevS6XXTYdOND3aPxrS10MtjECzXz0YXO1kQqu1_oOmwYAXZ8owxhk0"
+    ],
+    "relatedSlugs": ["pirinc-dolma-kalem", "yun-masa-altligi", "gece-murekkebi"],
+    "reviews": [
+      { "author": "Pelin Öztürk", "role": "İç mimar", "rating": 5, "text": "Masadaki kalabalığı topluyor ve beklediğimden daha premium hissettiriyor." }
+    ]
+  },
+  {
+    "id": "p-004",
+    "slug": "keten-uclu-defter-seti",
+    "name": "Keten Üçlü Defter Seti",
+    "category": "Setler",
+    "type": "Defter Seti",
+    "brand": "Papeterie",
+    "price": 990,
+    "rating": 4.9,
+    "reviewCount": 216,
+    "colorTone": "Pastel",
+    "shortDescription": "Noktalı iç sayfalı, keten kapaklı üçlü defter seçkisi.",
+    "description": "Adaçayı, pudra ve fildişi tonlarında hazırlanan bu üçlü set; not alma, toplantı planlama ve günlük düşünceler için hafif ama rafine bir eşlik sunar.",
+    "features": [
+      "Üçlü set",
+      "Noktalı iç sayfa",
+      "Keten kapak",
+      "Hafif yapı"
+    ],
+    "specs": [
+      { "label": "Format", "value": "A5 slim" },
+      { "label": "İç sayfa", "value": "96" },
+      { "label": "Kapak", "value": "Keten dokulu" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBtxIzZok-fy9gVVOavxaqgOp5UkCrBkVf0RY9oxJgyrnDOvo5cSrDehM5hvhGjg1vnGciaoiVHC9_HUipuJCNLfxO8LMdqZogId3WqjZuI02XmPyeI8NKZvgq7NWW2qQK6vAZg6ympSceKYbrCHCOsrLkN0T7DnJNm_Ni47pwhdvn-QsWIcDIAvhjL13v_cmLvLErk0yxz4ojbPd7nb_xPrU9DOnikuHk9q1UANMcMELFhkxYCBYhecKHlumbea7hWacm8SFvC1610",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAJv9H7RJqcYlM5MiIx7mQPFmPKbGkrkZqWUujtsy_b2UkkxIwo69TNqCx5e6zWQ0a0up6YyX_0HhbyYLMIfA7_8ERVCVrisPx_lgJvdfG9fawK3DbgXbHHQB2ljdTD18ZhZpKewf8CGPc2YVhfePLPyAnIc9sW7i1wfPMEVzhp4Fm8l_KBz3_v7W10GKMYvGfH1BwHLmKEfJGCIAbrp0hskDN2klHqtuTf5QCkImZndKxUBZhGptffjvCGFzPCuMu3vZi7aNwthez6",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBv_NPVm1AUGOjjqf-XL9H3KycV8FC5XYE9i8N8N6ncRlLUr4wohu-IqHjZBtW7aZZ1LqQYVvOJjIR07c6I2FLWks-NGQktD6jS0ElZDmk4yjcycIj8KhJnFB5Pm4z4g_aZo4BIohnakm2QE0jxkh2jlNyrLZkkUObKyGIcjKdGuXVpVqqEk8GnbOYtH_8_GdaoBt7v8AwIdpmbnr1D_4VU39Yblhe03AYcrUp--9Z51-ng2AlMfRfwKuc_CANe-A1hG6D3YBbkDp6-"
+    ],
+    "relatedSlugs": ["miras-deri-ajanda", "pirinc-dolma-kalem", "gece-murekkebi"],
+    "reviews": [
+      { "author": "Gizem A.", "role": "İçerik üreticisi", "rating": 5, "text": "Renkleri çok zarif, hediye vermek için de çok şık bir set." }
+    ]
+  },
+  {
+    "id": "p-005",
+    "slug": "yun-masa-altligi",
+    "name": "Yün Masa Altlığı",
+    "category": "Masa Düzeni",
+    "type": "Altlık",
+    "brand": "Maison Forme",
+    "price": 1290,
+    "rating": 4.8,
+    "reviewCount": 56,
+    "colorTone": "Antrasit",
+    "shortDescription": "Sürdürülebilir yün dokusuyla hazırlanmış geniş masa altlığı.",
+    "description": "Masa üstünde daha yumuşak bir çalışma yüzeyi oluşturan bu altlık, ses emen dokusu ve sade görünümüyle gün boyu sakin bir atmosfer yaratır.",
+    "features": [
+      "Sürdürülebilir yün",
+      "Geniş yüzey",
+      "Kaymaz taban",
+      "Sessiz kullanım"
+    ],
+    "specs": [
+      { "label": "Ölçü", "value": "80 x 40 cm" },
+      { "label": "Renk", "value": "Antrasit" },
+      { "label": "Bakım", "value": "Nemli bez" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAvB-FaqNvkPTEYLrbtPQAbBObjNG1sqY62s1xhbEfZfzBbRoDyu9F0Qzb8mbUNWi8Tpct_NN9C1rSvCIPqVcFKJMpwgVUrBJHLbf90FgAlJDSLl47noA8VlYI56H6Z4U1FJZ6tcp5H1KOweFZu_YVoNP8azIjJ-Z0sXA8fdJcZrTAsa4izuj6alYk7PxrZk2fTwrsqzFHzBcT6urZ3aJjFTLHoSEhMJjqatSQQ7wCkdiykAlh5vXV08aGQRlMUglVGcrpQSnodHjw2",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDCggzWyYaVRpCiclGgp5a8U8LNRZCntUjjCNBkbMhBdD7GSxRVuM9wkzDV_fflPmvCpE4lk65ghI09_gQxrnIrsKrkK9f9bIMAcH-eF6RlLzYXL96nmBQIW0Wqyb-eAQ8Y3B9dd5_TNoMAYNzYr-H7doiVQ9yeSIyDXKotoGkia6x7VgOu3REYq08I6fcf_h1wY1t7V-XxIv8Xfpvf9nPmG1Bm9aeXdRerB4ka1W2g0MNE409CSsQRFPKDz6EO1pVXfg98BLlyRqyZ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAHpUpilUfXccClFTFEsUlLWptyXrLykJQLcEFdteo0MsURZtihSeBY35o65mr4Pjv7GgI8PzraZCPufupxzar4SxtG-p7_1SMtZOaw8f6MaUH2Zhzh5__P0T7OisOfcLr8cH7bFMInaZtw9u7Xo6dbf3vCdcvtDYATcdDX0pCplmgF0SRldC4PZwmR6445-8bVVlPvMBsKn7dgvlA97zfsyT5lOSQnd0tHPHadkIfcjIzdtW1PK5AXLvGPuXNZSnWiFpQTNb2wMJil"
+    ],
+    "relatedSlugs": ["mimari-duzenleyici", "miras-deri-ajanda", "pirinc-dolma-kalem"],
+    "reviews": [
+      { "author": "Barış Y.", "role": "Ürün yöneticisi", "rating": 5, "text": "Masadaki yankıyı azaltıyor ve yüzey hissini ciddi biçimde iyileştiriyor." }
+    ]
+  },
+  {
+    "id": "p-006",
+    "slug": "gece-murekkebi",
+    "name": "Gece Mürekkebi No.04",
+    "category": "Yazım",
+    "type": "Mürekkep",
+    "brand": "Ink House",
+    "price": 540,
+    "rating": 4.8,
+    "reviewCount": 63,
+    "colorTone": "Lacivert",
+    "shortDescription": "Derin lacivert tonlu, pigment bazlı şişe mürekkep.",
+    "description": "Yazıya derinlik veren doygun tonu ve kontrollü kuruma süresiyle hem günlük notlarda hem imza anlarında karakterli bir iz bırakır.",
+    "features": [
+      "50 ml şişe",
+      "Pigment bazlı formül",
+      "Doygun renk",
+      "Dengeli kuruma"
+    ],
+    "specs": [
+      { "label": "Hacim", "value": "50 ml" },
+      { "label": "Renk", "value": "Gece laciverti" },
+      { "label": "Uyumluluk", "value": "Dolma kalem" }
+    ],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDQvThmPsLkRnSs-alnVvJz4AO_EhQaEdqaOYe9Lw8TLFKD-8Vu010VFiUFXFU0P3utIH_jqT1NFriv1S_j4KYszEMIDr3Z_3WyGEuprLzl03r_wyEaZpgyzmqmRaaXNuLvVf-jqx8qObHf_tHzqZTAK2N0U8S9EBmmrkO2RW459LwGyWRDy8av_H7s2WWwGdkjjGf3jjKUYrj5YB7NUnUm_e1UILcB5XM3VWQI_XleXPOTP7hZcVZcUf1nKGnXHmbb_jEa1KDI3045",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBc98nVX-kAp7JwZWk5VFo43JcFmnQoYB5adgXLPIEeSHtP5_eIaCw2IHQqklhIM9z6w1iQPx3x3DoFRa2lWUN50MFyDUnKQigXOlKhuBciPHqnsjOVTDQ9peSaMwmOAxLIg_AS7x-m_DMDArA6hPwYY10Lp7xAHNHbzqilImjIYG5vNkpV9U8sxQSVmnTl1EdQor1kx5WS-0zK06jzpYSIL5kMbA1bFEX0qtuh30SvRkmJHPS2B-bTznT2-PsNqidTW0FjRwf0aRxV",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAHpUpilUfXccClFTFEsUlLWptyXrLykJQLcEFdteo0MsURZtihSeBY35o65mr4Pjv7GgI8PzraZCPufupxzar4SxtG-p7_1SMtZOaw8f6MaUH2Zhzh5__P0T7OisOfcLr8cH7bFMInaZtw9u7Xo6dbf3vCdcvtDYATcdDX0pCplmgF0SRldC4PZwmR6445-8bVVlPvMBsKn7dgvlA97zfsyT5lOSQnd0tHPHadkIfcjIzdtW1PK5AXLvGPuXNZSnWiFpQTNb2wMJil"
+    ],
+    "relatedSlugs": ["pirinc-dolma-kalem", "miras-deri-ajanda", "keten-uclu-defter-seti"],
+    "reviews": [
+      { "author": "Tuğçe S.", "role": "Kaligraf", "rating": 5, "text": "Renk tonu ışığa göre çok zarif değişiyor. Akış dengesi çok iyi." }
+    ]
+  }
+]
