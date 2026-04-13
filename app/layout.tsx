@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Plus_Jakarta_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
+import { CartNoticeModal } from "@/components/cart-notice-modal";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StoreProvider } from "@/context/store-context";
@@ -42,6 +43,7 @@ export default function RootLayout({
         <StoreProvider>
           <div className="flex min-h-screen flex-col">
             <SiteHeader />
+            <CartNoticeModal />
             {children}
             <SiteFooter />
           </div>

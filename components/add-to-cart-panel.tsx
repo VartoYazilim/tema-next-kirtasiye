@@ -9,12 +9,9 @@ import { useStore } from "@/context/store-context";
 export function AddToCartPanel({ productId }: { productId: string }) {
   const { addToCart } = useStore();
   const [quantity, setQuantity] = useState(1);
-  const [message, setMessage] = useState("");
 
   function handleAddToCart() {
     addToCart(productId, quantity);
-    setMessage("Ürün sepete eklendi.");
-    window.setTimeout(() => setMessage(""), 1500);
   }
 
   return (
@@ -39,7 +36,6 @@ export function AddToCartPanel({ productId }: { productId: string }) {
       >
         Hemen Al
       </Link>
-      {message ? <p className="text-sm font-semibold text-primary">{message}</p> : null}
     </div>
   );
 }

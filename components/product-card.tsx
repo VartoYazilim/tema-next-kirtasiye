@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 
 import { useStore } from "@/context/store-context";
 import { formatCurrency } from "@/lib/utils";
@@ -10,12 +9,9 @@ import type { Product } from "@/types";
 
 export function ProductCard({ product }: { product: Product }) {
   const { addToCart } = useStore();
-  const [added, setAdded] = useState(false);
 
   function handleAdd() {
     addToCart(product.id, 1);
-    setAdded(true);
-    window.setTimeout(() => setAdded(false), 1400);
   }
 
   return (
@@ -41,7 +37,7 @@ export function ProductCard({ product }: { product: Product }) {
           onClick={handleAdd}
           className="absolute bottom-4 left-4 right-4 z-20 rounded-lg bg-white py-3 font-bold text-primary shadow-xl transition-all group-hover:translate-y-0 group-hover:opacity-100 md:translate-y-4 md:opacity-0"
         >
-          {added ? "Sepete eklendi" : "Sepete Ekle"}
+          Sepete Ekle
         </button>
       </div>
 

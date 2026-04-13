@@ -28,11 +28,17 @@ type StoreContextValue = {
   orders: Order[];
   cartCount: number;
   subtotal: number;
+  cartNotice: {
+    visible: boolean;
+    productName: string;
+    quantity: number;
+  };
   addToCart: (productId: string, quantity?: number) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   removeFromCart: (productId: string) => void;
   registerFakeUser: (payload: RegisterPayload) => void;
   createOrder: (payload: OrderPayload) => Order;
+  hideCartNotice: () => void;
 };
 
 const StoreContext = createContext<StoreContextValue | null>(null);
@@ -47,6 +53,11 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [user, setUser] = useState<FakeUser | null>(null);
   const [orders, setOrders] = useState<Order[]>([]);
+  const [cartNotice, setCartNotice] = useState({
+    visible: false,
+    productName: "",
+    quantity: 0,
+  });
 
   useEffect(() => {
     const savedCart = window.localStorage.getItem(STORAGE_KEYS.cart);
@@ -86,6 +97,8 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, 0);
 
   function addToCart(productId: string, quantity = 1) {
+    const product = products.find((entry) => entry.id === productId);
+
     setCart((current) => {
       const existingItem = current.find((item) => item.productId === productId);
 
@@ -98,6 +111,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       }
 
       return [...current, { productId, quantity }];
+    });
+
+    setCartNotice({
+      visible: true,
+      productName: product?.name ?? "Ürün",
+      quantity,
     });
   }
 
@@ -147,6 +166,10 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     return order;
   }
 
+  function hideCartNotice() {
+    setCartNotice((current) => ({ ...current, visible: false }));
+  }
+
   return (
     <StoreContext.Provider
       value={{
@@ -155,11 +178,13 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
         orders,
         cartCount,
         subtotal,
+        cartNotice,
         addToCart,
         updateQuantity,
         removeFromCart,
         registerFakeUser,
         createOrder,
+        hideCartNotice,
       }}
     >
       {children}
