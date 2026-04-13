@@ -40,19 +40,35 @@ export function SiteFooter() {
 
         <div>
           <h4 className="mb-6 font-headline text-sm font-bold text-blue-900">
-            Bülten
+            İletişim
           </h4>
-          <p className="mb-4 text-sm leading-relaxed text-slate-500">
-            Yeni seçkiler ve sınırlı üretim seriler için iç çevreye katılın.
-          </p>
-          <div className="flex rounded-xl bg-white p-1 shadow-sm">
-            <input
-              placeholder="E-posta adresiniz"
-              className="min-w-0 flex-1 rounded-lg px-4 py-3 text-sm outline-none"
-            />
-            <button className="rounded-lg bg-primary px-4 py-3 text-sm font-bold text-on-primary">
-              Katıl
-            </button>
+          <div className="space-y-4 text-sm text-slate-500">
+            <p>
+              E-posta:
+              {" "}
+              <a href="mailto:bilgi@vartoyazilim.com" className="font-semibold text-primary">
+                bilgi@vartoyazilim.com
+              </a>
+            </p>
+            <p>
+              Telefon:
+              {" "}
+              <a href="tel:05012998492" className="font-semibold text-primary">
+                0501 299 8492
+              </a>
+            </p>
+            <p>
+              Instagram:
+              {" "}
+              <a
+                href="https://instagram.com/vartoyazilim"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-primary"
+              >
+                instagram.com/vartoyazilim
+              </a>
+            </p>
           </div>
         </div>
       </div>
