@@ -188,7 +188,7 @@ export default function HomePage() {
           <div className="order-2 col-span-12 md:order-1 md:col-span-6">
             <div className="relative h-[500px] w-full">
               <Image
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQpSNZo79V-ZllXcM9GjBkQTg2AOpWJzC0KPsqAPMdVrGd1xtZ9WxLKF41Nbo5UGua6nNmTnr05ZCEVigXUzksChrxFJyWkNvH_usWwWfBbAt5RVIQ3m1bU7UMsjwyVJcaqta9Ek1mNsmr2TafaR0ZpzpjI4PfC3gR18H-ChjnjT5NxoacDYEcxDnaTjAdW-jd-BgWK1J06gBNlbj85KA27NI40n50BBTFO5G9mzgOupMcQCbgW92Pwe0evOEaQjYDXjK9X3KCpMA8"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDce0ot-s12-VoSwzyPfmCD4tPL9riSSabx5AYn0CaRdg3SAn8NbGqaqfqfsuhkzrDl5gcVwooPc3xDCTYpstjPe3XDuiXHNZBtOtgwiDp-61omD8PNScHXLeT8ZE45NCa3Tj7mb6KWsnMNE3kexn1SV4LnZssQxC7EqazuWTANS3YmqKDvWb-Y2P5qOcLGRuKB51si6Em5YHRcaJtHClxMTtwRe5n69iMFuT2Mprk-YHiAPoCKtNjBPoaWYIUDroPfU-i3V8cvx442"
                 alt="Atelier mağaza içi"
                 fill
                 className="rounded-xl object-cover shadow-lg"
